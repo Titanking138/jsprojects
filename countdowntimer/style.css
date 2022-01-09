@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./photos/new2.jpg");
+    background-position: center ;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    margin:  0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+    color: aliceblue;
+    
+}
+
+.container{
+    text-align: center;
+    background-color: rgba(15, 15, 15, 0.431);
+    padding: 15rem 10rem 10rem 10rem;
+    border-radius: 1rem;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: -10rem;
+    font-weight: normal;
+    /* background-color: rgba(240, 248, 255, 0.404); */
+    
+}
+.bigtext{
+    font-size: 6rem;
+    margin: 0 2rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.countdown-container{
+    
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* padding: 10rem; */
+    display: flex;
+    /* margin: 2rem; */
+}
+
+.containerstyle{
+    text-align: center;
+}
+.containerstyle div{
+    background-color: rgba(15, 15, 15, 0.431);
+    padding: 2rem;
+    border-radius: 2rem;
+
+}
+.containerstyle span{
+    font-size: 1.5rem;
+    /* background-color: rgba(240, 248, 255, 0.404); */
+}
+
+
+
+
+
+
